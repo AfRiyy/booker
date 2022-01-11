@@ -1,0 +1,8 @@
+<h1>Könyvek</h1>
+<table class="table" >
+    <tr *ngFor='let book of books'><td>{{book.id}}</td><td>{{book.title}}</td><td>{{book.writer}}</td></tr>
+</table>
+   <p>
+    <a routerLink="/books">Könyvek</a>
+</p>
+<router-outlet></router-outlet>
